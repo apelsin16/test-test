@@ -1,0 +1,59 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 2rem;
+    background-color: #f0f1f0;
+    padding: 1rem;
+}
+
+
+
+.activity {
+    border-radius: 10px;
+    background-color: #fff;
+    height: 80vh;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem;
+        border-bottom: 2px solid #f0f1f0;
+    }
+
+    select {
+        border: none;
+        outline: none;
+    }
+}
+
+.vehicles {
+    border-radius: 10px;
+    background-color: #fff;
+    
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem;
+        border-bottom: 2px solid #f0f1f0;
+    }
+
+    &__buttons {
+        display: flex;
+    }
+
+    &__button {
+        background-color: inherit;
+        color: #b4b9bd;
+        border: none;
+        border-bottom: 5px solid transparent;
+
+        &:hover {
+            color: #b4b9bd​;
+            border-bottom: 5px solid #b4b9bd​;
+
+        }
+    }
+}
+
+
+

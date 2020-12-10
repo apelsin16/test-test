@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: #b4b9bd;
+    height: 10vh;
+
+    &__button {
+        background-color: inherit;
+        color: #b4b9bd;
+        border: none;
+    }
+    
+    &__input {
+        border: none;
+        outline: none;
+        &:active, &:hover, &:focus {
+            outline: 0;
+            outline-offset: 0;
+        }
+    }
+
+    label {
+        margin-left: 2.5rem;
+    }
+}
